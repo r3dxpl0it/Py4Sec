@@ -2,6 +2,7 @@
 Simple DNS Resolver Just in 3 Functions with Sockets and dns Module 
 #### Usage 
 ```
+from dnsres import *
 DOMAIN = 'polito.it'
 if socketreq(DOMAIN) is not None : 
 	print(socketreq(DOMAIN))
