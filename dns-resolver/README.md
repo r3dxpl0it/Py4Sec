@@ -9,3 +9,9 @@ if socketreq(DOMAIN) is not None :
 test = dns_extractor((dns_resolve(DOMAIN)))
 
 ```
+#### mass_dns.py 
+Multi Processes DNS resolver for Internet Surface DNS 
+#### Usage 
+```
+python3 mass_dns.py 
+```
