@@ -1,4 +1,4 @@
-#### dnsres.py 
+### dnsres.py 
 Simple DNS Resolver Just in 3 Functions with Sockets and dns Module 
 #### Usage 
 ```
@@ -9,7 +9,7 @@ if socketreq(DOMAIN) is not None :
 test = dns_extractor((dns_resolve(DOMAIN)))
 
 ```
-#### mass_dns.py 
+### mass_dns.py 
 Multi Processes DNS resolver for Internet Surface DNS 
 #### Usage 
 ```
